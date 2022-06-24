@@ -1,0 +1,313 @@
+@media (max-width: 1200px)
+ 
+    .menu
+        .menu_item
+            padding-right: 20px
+            
+        .menu_link
+            font-size: 13px
+    .subheader
+        .call_box
+            width: 192px
+            height: 48px
+    
+    .promo
+        .promo_header
+            font-size: 50px
+    .reasons
+        .reasons_block
+            align-items: flex-start
+        .reasons_descr
+            width: 300px
+
+    .mobile
+        .mobile_item
+            width: 300px
+
+    .footer
+        .footer_img
+            transform: translate(0, -24px)
+        .footer_social
+            transform: translate(24px, -30px)
+
+
+@media (max-width: 992px)
+    .menu
+        .menu_item
+            padding-right: 13px
+            
+        .menu_link
+            font-size: 10px
+    .subheader
+        .subheader_official
+            font-size: 10px 
+        .img_logo
+            width: 100%
+        .subheader_call_box
+            width: 156px    
+            font-size: 15px
+        .subheader_number
+            font-size: 20px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 25px
+            margin-top: 1px
+        .promo_descr
+            font-size: 15px
+
+    .reasons
+        .reasons_block
+            flex-direction: column
+            align-items: center
+        .reasons_descr
+            margin-top: 20px
+        .col_round
+            margin-right: 0
+        
+    .mobile
+        .mobile_item
+            width: 237px
+            height: 237px
+            margin-left: -15px
+        .item_title
+            font-size: 17px
+        .mobile_subtitle
+            font-size: 13px
+
+    .choise
+        .choise_car
+            width: 100%
+    .world
+        width: 100%
+    
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        background-color: rgba(0,0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        .menu_item
+            padding-right: 0
+            margin: 10px
+            border: 0
+        .menu_link
+            font-size: 15px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+
+        &_active
+            span
+                margin-bottom: 0
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        .subheader_number
+            display: block
+            margin-top: 10px
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            color: #fff
+            text-align: center
+        .subheader_call_box 
+            width: 200px
+            height: 40px
+            display: block
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        .promo_header
+            line-height: 45px
+    .mobile
+        .mobile_subtitle
+            display: none
+
+    .choise
+        min-height: 737px
+    .second_bg
+        height: 251px
+
+    .footer
+        .footer_social
+            left: 38%
+            transform: translateY(-50%)
+            top: 146px
+
+        .app_img
+            
+            transform: translate(0, 20px)
+        .footer_img
+            right: 20%
+            position: absolute
+            top: 55px
+            
+                    
+
+@media (max-width: 575px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .subheader
+        height: 60px
+        top: 30px
+        .subheader_official
+            display: none
+        .subheader_logo
+            margin-top: 16px
+    
+        .subheader_number
+            margin-top: 11px
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+        .subheader_call_box 
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+    .promo
+        min-height: 400px
+        padding: 73px 0 35px 0
+        .promo_descr
+            display: none
+        .promo_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        .promo_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        .promo_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+        .menu_item
+            width: 100%
+            text-align: center
+        .menu_link
+            display: block
+        
+    .reasons
+        padding: 22px 0 36px 0
+        .reasons_block
+            margin-top: 26px
+        .col_round
+            height: 100px
+            width: 100px
+
+        .reason_header
+            font-size: 15px
+            margin-top: 15px
+            line-height: 16px
+        .reasons_descr
+            width: 100%
+        .reasons_subtitle
+            font-size: 16px
+    .mobile
+        .mobile_item
+            margin: 12px auto
+    .choise
+        min-height: 551px
+        padding: 55px 0 49px 0
+        .choise_small_text
+            margin-right: 0px
+            font-size: 13px
+            width: 300px
+        .choise_block_for_text
+            display: none
+        .second_bg
+            top: 336px
+    .mobile_title 
+            font-size: 20px
+            &_white
+                font-size: 20px
+    .mobile_subtitle
+        display: none
+        &_white
+            display: none
+
+    .footer
+        flex-wrap: wrap
+        .title_block   
+            width: 300px
+            font-size: 13px
+        .subtitle_block
+            display: block
+            width: 300px
+            align-items: stretch
+            flex-wrap: wrap
+            margin: 0 auto
+            
+            
+        .footer_subtitle
+            flex-wrap: wrap
+            align-items: stretch
+            
+            
+        .footer_social
+            top: 171px
+            
+        .footer_img
+            margin: 0px
+            
+        .footer_line
+            width: 290px
+        .app_img
+            margin: 0px
+
+@media (max-width: 434px)
+    .footer
+        .footer_social
+            left: 26%
+            transform: translateY(-50%)
+            top: 168px
+
+        .app_img
+            
+            transform: translate(0, 20px)
+        .footer_img
+            right: 5%
+            position: absolute
+            top: 55px
+    .choise        
+        .second_bg
+            top: 306px
+           
