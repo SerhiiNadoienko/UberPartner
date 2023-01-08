@@ -21,4 +21,4 @@ Unfortunately, I haven't used GitHub yet while working on this project. Therefor
 
 ---
 
-## **Deployment:** [Click here](papaya-pudding-a12db3.netlify.app/)
+## **Deployment:** [Click here](https://papaya-pudding-a12db3.netlify.app/)
